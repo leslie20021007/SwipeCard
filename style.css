@@ -1,0 +1,35 @@
+@charset "UTF-8";
+html
+{
+	width:  100%;
+	height: 100%;
+}
+body
+{
+	height:  100%;
+	margin:     0;
+	display: flex;
+	background-color: #AEBAB1;
+}
+.LeftList
+{
+	width:    30%;
+	height:  100%;
+	background-color: tomato;
+}
+.MainArea
+{
+	width:    70%;
+	height:  100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: greenyellow;
+}
+.Card
+{
+	width:    40%;
+	height:   70%;
+	background-color: green;
+}
+
